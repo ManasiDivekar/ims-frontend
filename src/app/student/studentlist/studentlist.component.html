@@ -37,7 +37,8 @@
                         <td>{{a.mobile}}</td>
                         <td>{{a.address}}</td>
                         <td>
-                            <button type="button" class="btn btn-primary"  ><i class="fa-solid fa-pen"></i></button>
+                            <button type="button" class="btn btn-secondary mx-2 text-light" data-bs-toggle="modal" data-bs-target="#viewmodal" ><i class="fa-solid fa-eye"></i></button>
+                            <button type="button" class="btn btn-primary" [routerLink]="['/update/',a.id]" ><i class="fa-solid fa-pen"></i></button>
                             <button type="button" class="btn btn-warning mx-2 text-light" (click)="deletestudent(a.id)"><i class="fa-solid fa-trash"></i></button>
                         </td>
                     </tr>
@@ -45,5 +46,43 @@
             </table>
           </div>
         </div>
+
+<!--   view   modal -->
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="modal" id="viewmodal">
+                    <div class="modal-dialogue modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">student data</h4>
+                                <button type="button" class="btn btn-danger btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="card">
+                                <div class="card-body">
+                                    <h5>id:</h5><span>{{allstudentdata.id}}</span>
+                                    <h5>First name:</h5><span>{{allstudentdata.id}}</span>
+                                    <h5>Last name:</h5><span>{{allstudentdata.id}}</span>
+                                    <h5>Class:</h5><span>{{allstudentdata.id}}</span>
+                                    <h5>DOB:</h5><span>{{allstudentdata.id}}</span>
+                                    <h5>Mentor:</h5><span>{{allstudentdata.id}}</span>
+                                    <h5>Mobile:</h5><span>{{allstudentdata.id}}</span>
+                                    <h5>address:</h5><span>{{allstudentdata.id}}</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">OK</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+
     </div>
 </div>
+
+
+

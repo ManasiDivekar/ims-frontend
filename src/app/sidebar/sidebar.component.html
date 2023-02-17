@@ -51,6 +51,30 @@
                     </li>
                 </ul>
             </li>
+
+
+            <li>
+                <a href="#submenu3"  data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                    <i class="fa-solid fa-user-graduate"></i> <span class="ms-1 d-none d-sm-inline">Teachers</span> </a>
+                <ul class="collapse show nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                    <li class="w-100">
+                        <!-- <a routerlink = "admindashboard"  class="nav-link ">Admin Dashboard</a> -->
+                        <a routerLink ="teahcer/teacherlist"  class="nav-link ">Teachers List</a>
+                    </li>
+                    <li>
+                        <!-- <a routerlink="/teacherdashboard" class="nav-link ">Teacher Dashboard </a> -->
+                        <a  routerLink="teacher/teacherview" class="nav-link ">Teachers view </a>
+                    </li>
+                    <li>
+                        <!-- <a routerlink="/studentdashboard" class="nav-link ">Student Dashboard </a> -->
+                        <a  routerLink ="teacher/teacheradd" class="nav-link ">Teachers add </a>
+                    </li>
+                    <li>
+                        <!-- <a routerlink="/studentdashboard" class="nav-link ">Student Dashboard </a> -->
+                        <a  routerLink ="teacher/teacheredit" class="nav-link ">Teacher edit </a>
+                    </li>
+                </ul>
+            </li>
         </ul>
         <hr>
     

@@ -31,7 +31,12 @@
                         </div>
                         <div class="col-md-6">
                             <label for="course" class="form-label">course</label>
-                            <input type="text" class="form-control" name="course" formcontrolname="course"  placeholder="enter course">
+                            <select class="form-control" (oninput)="$event.target.value.toUpperCase()" name="course" formcontrolname="course" id="">
+                                <option value="" selected disabled>select course</option>
+                                <option value="course">FRONTEND DEVELOPER</option>
+                                <option value="course">FULL STACK DEVELOPER</option>
+                                <option value="course">SOFTWARE TESTING</option>
+                            </select>
                         </div>
                         <div class="col-md-6">
                             <label for="dob" class="form-label">date of birth</label>
@@ -47,10 +52,12 @@
                         </div>
                         <div class="col-md-6">
                             <label for="gender" class="form-label">gender</label><br>
-                            <input type="radio"  name="gender" value="male" formcontrolname="gender" >
-                            <label for="gender" class="form-label mx-2">male</label>
-                            <input type="radio"  name="gender" value="female" formcontrolname="gender" >
-                            <label for="gender" class="form-label mx-2">female</label>
+                            <select class="form-control" name="gender" formcontrolname="gender" id="">
+                                <option value=""selected disabled>Select gender</option>
+                                <option value="gender">Male</option>
+                                <option value="gender">Female</option>
+                                <option value="gender">Other</option>
+                            </select>
                         </div>
                     </div>
                 </form>

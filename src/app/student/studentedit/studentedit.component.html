@@ -35,7 +35,12 @@
                         </div>
                         <div class="col-md-6">
                             <label for="course" class="form-label">course</label>
-                            <input type="text" class="form-control" name="course" formcontrolname="course"  placeholder="enter course">
+                            <select class="form-control" (oninput)="$event.target.value.toUpperCase()" name="course" formcontrolname="course" id="">
+                                <option value="" selected disabled>select course</option>
+                                <option value="course">FRONTEND DEVELOPER</option>
+                                <option value="course">FULL STACK DEVELOPER</option>
+                                <option value="course">SOFTWARE TESTING</option>
+                            </select>
                         </div>
                         <div class="col-md-6">
                             <label for="batchCode" class="form-label">batchcode</label>
@@ -59,21 +64,25 @@
                         </div>
                         <div class="col-md-6">
                             <label for="gender" class="form-label">gender</label><br>
-                            <input type="radio"  name="gender" value="male" formcontrolname="gender" >
-                            <label for="gender" class="form-label mx-2">male</label>
-                            <input type="radio"  name="gender" value="female" formcontrolname="gender" >
-                            <label for="gender" class="form-label mx-2">female</label>
+                            <select class="form-control" name="gender" formcontrolname="gender" id="">
+                                <option value=""selected disabled>Select gender</option>
+                                <option value="gender">Male</option>
+                                <option value="gender">Female</option>
+                                <option value="gender">Other</option>
+                            </select>
                         </div>
-                        <div class="col-md-6">
-                            <label for="createdOn" class="form-label">created on</label>
-                            <input type="text" class="form-control" name="createdOn" formcontrolname="createdOn"  placeholder="">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="updatedOn" class="form-label">updated on</label>
-                            <input type="text" class="form-control" name="updatedOn" formcontrolname="updatedOn"  placeholder="">
-                        </div>
+                        
                     </div>
                 </form>
+            </div>
+
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <button type="button" class="btn btn-warning" (click)="updateddata()" >update </button>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>

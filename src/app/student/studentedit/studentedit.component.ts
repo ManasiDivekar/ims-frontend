@@ -33,6 +33,7 @@ export class StudenteditComponent implements OnInit {
 updateddata(){
   this.allapi.updatestudent(this.update.value).subscribe((res)=>{
     console.log(res);
+    alert('data got updated.')
     
   })
 }
