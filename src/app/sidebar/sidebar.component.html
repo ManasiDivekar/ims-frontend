@@ -1,0 +1,58 @@
+<div class="col-auto col-md-12 c px-0   sidebar">
+    <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+        <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-5 d-none d-sm-inline">Menu</span>
+        </a>
+        <ul class="nav  flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link align-middle px-0">
+                    <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Main menu</span>
+                </a>
+            </li>
+            <li>
+                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                    <i class="fa-solid fa-user-graduate"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
+                <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                    <li class="w-100">
+                        <!-- <a routerlink = "admindashboard"  class="nav-link ">Admin Dashboard</a> -->
+                        <a routerLink ="admindashboard"  class="nav-link ">Admin Dashboard</a>
+                    </li>
+                    <li>
+                        <!-- <a routerlink="/teacherdashboard" class="nav-link ">Teacher Dashboard </a> -->
+                        <a routerLink ="teacherdashboard" class="nav-link ">Teacher Dashboard </a>
+                    </li>
+                    <li>
+                        <!-- <a routerlink="/studentdashboard" class="nav-link ">Student Dashboard </a> -->
+                        <a routerLink ="studentdashboard" class="nav-link ">Student Dashboard </a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li>
+                <a href="#submenu2"  data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                    <i class="fa-solid fa-user-graduate"></i> <span class="ms-1 d-none d-sm-inline">Students</span> </a>
+                <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                    <li class="w-100">
+                        <!-- <a routerlink = "admindashboard"  class="nav-link ">Admin Dashboard</a> -->
+                        <a routerLink ="student/studentlist"  class="nav-link ">Student List</a>
+                    </li>
+                    <li>
+                        <!-- <a routerlink="/teacherdashboard" class="nav-link ">Teacher Dashboard </a> -->
+                        <a  routerLink="student/studentview" class="nav-link ">Student view </a>
+                    </li>
+                    <li>
+                        <!-- <a routerlink="/studentdashboard" class="nav-link ">Student Dashboard </a> -->
+                        <a  routerLink ="student/studentadd" class="nav-link ">Student add </a>
+                    </li>
+                    <li>
+                        <!-- <a routerlink="/studentdashboard" class="nav-link ">Student Dashboard </a> -->
+                        <a  routerLink ="student/studentedit" class="nav-link ">Student edit </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+    
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="card">
+          <div class="card-head">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Students</h3>
+                    <h5>Dashboard/Students</h5>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                        <button type="button" class="btn btn-outline-warning my-3"><i class="fa-solid fa-download"></i>Download</button>
+                       <button type="button" class="btn btn-warning my-3 mx-3"><i class="fa-solid fa-plus"><a href="student/studentadd"></a></i></button>
+                </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <table class="table table-stripped table-responsive">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>Class</th>
+                        <th>DOB</th>
+                        <th>Parent Name</th>
+                        <th>Mobile number</th>
+                        <th>Address</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let a of allstudentdata">
+                        <td>{{a.id}}</td>
+                        <td>{{a.firstName}}{{a.lastName}}</td>
+                        <td>{{a.course}}</td>
+                        <td>{{a.dob}}</td>
+                        <td>{{a.mentor}}</td>
+                        <td>{{a.mobile}}</td>
+                        <td>{{a.address}}</td>
+                        <td>
+                            <button type="button" class="btn btn-primary"  ><i class="fa-solid fa-pen"></i></button>
+                            <button type="button" class="btn btn-warning mx-2 text-light" (click)="deletestudent(a.id)"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+</div>

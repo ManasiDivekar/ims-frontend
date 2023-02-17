@@ -1,0 +1,8 @@
+.sidebar{
+    background-color: rgba(221, 213, 213, 0.872);
+    height: 1300px;
+}
+
+li{
+    cursor: pointer;
+}

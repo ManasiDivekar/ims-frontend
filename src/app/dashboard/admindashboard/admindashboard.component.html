@@ -1,0 +1,253 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="heading">
+            <h3>Welcome Admin!</h3>
+            <h6 class="text-secondary">Dashboard</h6>
+        </div>
+    </div>
+
+    <!-- boxes -->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="box-1">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center my-4">
+                        <div class="icon-box"><i class="fa-solid fa-user-graduate mx-3 my-3 text-light"></i></div>
+                    </div>
+                    <div class="col-md-6 justify-content-center">
+                        <h3 class=" my-3 ">50055</h3>
+                        <h6 class=" ">students</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="box-2">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center my-4">
+                      <div class="icon-box2"><i class="fa-solid fa-crown mx-3 my-3 text-light  "></i></div>
+                    </div>
+                    <div class="col-md-6 justify-content-center">
+                        <h3 class=" my-3 ">50+</h3>
+                        <h6 class=" ">Awards</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="box-3">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center my-4">
+                        <div class="icon-box3"><i class="fa-solid fa-building mx-3 my-3 text-light "></i></div>
+                    </div>
+                    <div class="col-md-6 justify-content-center">
+                        <h3 class=" my-3 ">30+</h3>
+                        <h6 class=" ">Departments</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="box-4">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center my-4">
+                        <div class="icon-box4"><i class="fa-sharp fa-solid fa-file-invoice-dollar mx-3 my-3 text-light "></i></div>
+                    </div>
+                    <div class="col-md-6 justify-content-center">
+                        <h3 class=" my-3 ">$505</h3>
+                        <h6 class=" ">Revenue</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- charts -->
+
+    <div class="row ">
+        <div class="col-md-6 large-1">
+
+
+            <!-- first card chart -->
+        <div class="card">
+            <div class="card-head ">
+             <div class="row p-3">
+                <div class="col-md-6">
+                    <h4>Revenue</h4>
+                </div>
+                <div class="col-md-6 ">
+                    <form action="">
+                     <select name="select" class="form-select" id="">
+                        <option value="Today" selected>Today</option>
+                        <option value="last week" >last week</option>
+                        <option value="last month" >last month</option>
+                     </select>
+                    </form>
+                </div>
+             </div>
+            </div>
+  <hr>
+            <div class="card-body">
+                <canvas id="chart1">
+
+
+                </canvas>
+            </div>
+
+        </div>
+        </div>
+
+<!-- card chart second -->
+
+        <div class="col-md-6 large-2 ">
+            <div class="card">
+                <div class="card-head">
+                    <div class="row p-3">
+                        <div class="col-md-6">
+                            <h4>Number of Students</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <form action="">
+                                <select name="select" class="form-select" id="">
+                                   <option value="Today" selected>Today</option>
+                                   <option value="last week" >last week</option>
+                                   <option value="last month" >last month</option>
+                                </select>
+                               </form>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+               <div class="card-body">
+                <canvas id="chart2">
+                    
+                </canvas>
+               </div>
+            </div>
+        </div>
+<!-- card chart three -->
+
+        <div class="col-md-6 large-1">
+        <div class="card">
+            <div class="card-head p-3">
+                <h4>Star student</h4>
+            </div>
+            <hr>
+            <div class="card-body">
+               <!-- <canvas></canvas> -->
+               <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Name</td>
+                        <td>Marks</td>
+                        <td>Percentage</td>
+                    </tr>
+                    <tr>
+                        <td>PRE2209</td>
+                        <td>John Smith</td>
+                        <td>1185</td>
+                        <td>98%</td>
+                    </tr>
+                    <tr>
+                        <td>PRE1245</td>
+                        <td>Jolie Hoskins</td>
+                        <td>1195</td>
+                        <td>99.5%</td>
+                    </tr>
+                    <tr>
+                        <td>PRE1625</td>
+                        <td>Pennington Joy</td>
+                        <td>1196</td>
+                        <td>99.6%</td>
+                    </tr>
+                    <tr>
+                        <td>PRE2516</td>
+                        <td>Millie Marsden</td>
+                        <td>1187</td>
+                        <td>98.2%</td>
+                    </tr>
+                    <tr>
+                        <td>PRE2209</td>
+                        <td>John Smith</td>
+                        <td>1185</td>
+                        <td>98%</td>
+                    </tr>
+                </thead>
+               </table>
+            </div>
+        </div>
+        </div>
+
+
+        <!-- card chart four -->
+        <div class="col-md-6 large-2 ">
+           <div class="card ">
+            <div class="card-head p-3">
+                <h4>Student Activity</h4>
+            </div>
+            <hr>
+            <div class="card-body  ">
+                <ul class="">
+                    <li class="">
+                        <h6 class="text-secondary m-0">APR 13</h6>
+                        <h5 class="m-0">John Doe won 1st place in "Chess"</h5>
+                    </li>
+                    <li>
+                        <h6 class="text-secondary m-0">MAR 21</h6>
+                        <h5 class="m-0">Justin Lee participated in "Carrom"</h5>
+                    </li>
+                    <li>
+                        <h6 class="text-secondary m-0">FEB 2</h6>
+                        <h5 class="m-0">Justin Leeattended internation conference in "St.John School"</h5>
+                    </li>
+                    <li>
+                        <h6 class="text-secondary m-0">APR 13</h6>
+                        <h5 class="m-0">John Doe won 1st place in "Chess"</h5>
+                    </li>
+                    <li>
+                        <h6 class="text-secondary m-0">MAR 21</h6>
+                        <h5 class="m-0">Justin Lee participated in "Carrom"</h5>
+                    </li>
+                </ul>
+            </div>
+           </div> 
+           
+        </div>
+    </div>
+
+
+    <!-- social media boxes -->
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="media-box-1 text-center text-light">
+               <h4>FACEBOOK</h4>
+               <h5>50,095</h5>
+               <h6>Likes</h6>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="media-box-2 text-center text-light">
+               <h4>TWITTER</h4>
+               <h5>48,596</h5>
+               <h6>follows</h6>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="media-box-3 text-center text-light">
+               <h4>Instagram</h4>
+               <h5>52,085</h5>
+               <h6>follows</h6>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="media-box-4 text-center text-light">
+               <h4>Linkedin</h4>
+               <h5>69,050</h5>
+               <h6>follows</h6>
+            </div>
+        </div>
+    </div>
+</div>

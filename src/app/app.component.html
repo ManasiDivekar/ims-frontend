@@ -1,1 +1,22 @@
-<router-outlet></router-outlet>
+<div class="container-fluid">
+    <div class="row">
+        <app-navbar></app-navbar>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+         <app-sidebar></app-sidebar>
+        </div>
+        <div class="col-md-10">
+            <router-outlet></router-outlet>
+            <div class="container-fluid">
+                <div class="row copyright">
+                    <h4>Copyright &#169; 2020 Dreamguys</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            
+
+
+

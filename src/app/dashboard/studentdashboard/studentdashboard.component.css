@@ -1,0 +1,82 @@
+.box1{
+    height:100px;
+    width: 250px;
+    background-color:rgba(229, 92, 135, 0.47);
+    border: 1px solid rgb(245, 60, 91);
+    border-radius: 30px 0px;
+}
+.box2{
+    height:100px;
+    width: 250px;
+    background-color:rgba(172, 172, 240, 0.443);
+    border: 1px solid blue;
+    border-radius: 30px 0px;
+}
+
+.box3{
+    height:100px;
+    width: 250px;
+    background-color:rgba(236, 187, 96, 0.619);
+    border: 1px solid orange;
+    border-radius: 30px 0px;
+}
+
+.box4{
+    height:100px;
+    width: 250px;
+    background-color:rgba(39, 154, 203, 0.436);
+    border: 1px solid rgb(41, 146, 187);
+    border-radius: 30px 0px;
+}
+
+.iconbox{
+    height: 50px;
+    width: 50px;
+    background-color:rgba(233, 56, 86, 0.838);
+    border-radius: 10px;
+}
+.iconbox2{
+    height: 50px;
+    width: 50px;
+    background-color:rgba(72, 72, 233, 0.76);
+    border-radius: 10px;
+}
+.iconbox3{
+    height: 50px;
+    width: 50px;
+    background-color:rgb(251, 177, 38);
+    border-radius: 10px;
+}
+.iconbox4{
+    height: 50px;
+    width: 50px;
+    background-color:rgb(30, 91, 234);
+    border-radius: 10px;
+}
+select{
+    margin-left: 130px;
+    border: 1px solid orange;
+}
+.chart3{
+    height: 500px;
+    width: 600px;
+    
+}
+.caldetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.head1{
+    background-color: rgba(190, 226, 240, 0.68);
+}
+.head2{
+    background-color: rgba(177, 177, 250, 0.733);
+}
+.head3{
+    background-color: rgba(247, 205, 212, 0.719);
+}
+.head4{
+    background-color: rgba(247, 215, 156, 0.742);
+}

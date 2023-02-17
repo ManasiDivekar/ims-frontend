@@ -1,0 +1,130 @@
+.container-fluid{
+    margin-top: 50px;
+    height: auto;
+}
+
+.heading{
+    height: 50px;
+
+}
+
+
+.box-1{
+    height: 100px;
+    width: 250px;
+    background-color: rgba(255, 166, 0, 0.582);
+    margin-top: 20px;
+    border-radius: 40px 0px;
+    border: 1px solid orange;
+}
+
+.icon-box{
+    height: 50px;
+    width: 50px;
+    background-color:orange;
+    border-radius: 10px;
+}
+
+.icon-box2{
+    height: 50px;
+    width: 50px;
+    background-color:rgba(67, 171, 219, 0.906);
+    border-radius: 10px;
+}
+.icon-box3{
+    height: 50px;
+    width: 50px;
+    background-color:rgba(245, 111, 133, 0.863);
+    border-radius: 10px;
+}
+.icon-box4{
+    height: 50px;
+    width: 50px;
+    background-color:rgb(67, 135, 224);
+    border-radius: 10px;
+}
+.box-2{
+    height: 100px;
+    width: 250px;
+    background-color: rgba(96, 179, 231, 0.555);
+    margin-top: 20px;
+    border-radius: 40px 0px;
+    border: 1px solid blue;
+}
+
+.box-3{
+    height: 100px;
+    width: 250px;
+    background-color: rgba(255, 192, 203, 0.721);
+    margin-top: 20px;
+    border-radius: 40px 0px;
+    border: 1px solid rgb(241, 49, 81);
+}
+
+.box-4{
+    height: 100px;
+    width: 250px;
+    background-color: rgba(125, 125, 210, 0.447);
+    margin-top: 20px;
+    border-radius: 40px 0px;
+    border: 1px solid blue;
+}
+
+.large-1{
+    height: 450px;
+    width: 600px;
+    border:1px solid black;
+    margin-top: 40px;
+    
+}
+.large-2{
+    height: 450px;
+    width: 600px;
+    border:1px solid black;
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+
+
+.card{
+    border: none;
+}
+.form-select{
+    width: 130px;
+    border: 2px solid orange;
+    margin-left: 120px;
+}
+
+
+.media-box-1{
+    height: 100px;
+    width: 250px;
+    background-color: rgba(46, 46, 163, 0.788);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.media-box-2{
+    height: 100px;
+    width: 250px;
+    background-color: rgba(53, 156, 172, 0.788);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.media-box-3{
+    height: 100px;
+    width: 250px;
+    background-color: rgba(211, 26, 100, 0.756);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.media-box-4{
+    height: 100px;
+    width: 250px;
+    background-color: rgba(0, 0, 255, 0.737);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
